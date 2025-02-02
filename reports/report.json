@@ -1,0 +1,740 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-authorization;standard-user-logs-in",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Standard user logs in",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 991600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I open the web application at \"https://www.saucedemo.com\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1980863100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "I see the login page with \"username\" and \"password\" fields",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53481300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter \"standard_user\" into the \"username\" field",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251376800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter \"secret_sauce\" into the \"password\" field",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272948800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I press the \"login-button\" on the form",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 362276200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be navigated to a new page",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 392500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "that page should display the title \"Products\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13198400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 418800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-authorization",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User authorization",
+    "tags": [],
+    "uri": "features\\test.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "cart-price-check;authorized-user-checks-total-item-price",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Authorized user checks total item price",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 74500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I open the web application at \"https://www.saucedemo.com\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1806344000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "I see the login page with \"username\" and \"password\" fields",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46771399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter \"standard_user\" into the \"username\" field",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249820400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter \"secret_sauce\" into the \"password\" field",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243905499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I press the \"login-button\" on the form",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325015400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be navigated to a new page",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 293599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "that page should display the title \"Products\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14984099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the \"Products\" page",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2484699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I locate the product \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7885499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on \"Add to cart\" for that product",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:125"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234876999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I store the displayed price for \"Sauce Labs Backpack\" as \"price1\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6947400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I locate the product \"Sauce Labs Bike Light\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8941100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click on \"Add to cart\" for that product",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:125"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259095000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I store the displayed price for \"Sauce Labs Bike Light\" as \"price2\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5550200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I open the cart page",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:160"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 240116700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the cart should list \"Sauce Labs Backpack\" and \"Sauce Labs Bike Light\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:171"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11176099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 274599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "cart-price-check",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Cart price check",
+    "tags": [],
+    "uri": "features\\test2.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "adding-multiple-items;add-10-different-items-to-the-cart",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add 10 different items to the cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 34100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the web application at \"https://www.saucedemo.com\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1482103099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I see the login page with \"username\" and \"password\" fields",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33017100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter \"standard_user\" into the \"username\" field",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234708899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter \"secret_sauce\" into the \"password\" field",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232574400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I press the \"login-button\" on the form",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 364848800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be navigated to a new page",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 469100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "that page should display the title \"Products\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17716099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I am on the \"Products\" page",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2512199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I locate the product \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10473899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click on \"Add to cart\" for that product",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:125"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258932400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I store the displayed price for \"Sauce Labs Backpack\" as \"price1\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4955300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I locate the product \"Sauce Labs Bike Light\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13324099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on \"Add to cart\" for that product",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:125"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251000799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I store the displayed price for \"Sauce Labs Bike Light\" as \"price2\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6025499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I locate the product \"Sauce Labs Bolt T-Shirt\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9645099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on \"Add to cart\" for that product",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:125"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247492700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I store the displayed price for \"Sauce Labs Bolt T-Shirt\" as \"price3\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5079700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I locate the product \"Sauce Labs Fleece Jacket\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8318499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on \"Add to cart\" for that product",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:125"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238159100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I store the displayed price for \"Sauce Labs Fleece Jacket\" as \"price4\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3975900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I locate the product \"Sauce Labs Onesie\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8106399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I click on \"Add to cart\" for that product",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:125"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 241045500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I store the displayed price for \"Sauce Labs Onesie\" as \"price5\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5325600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I open the cart page",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:160"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230241899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "the cart should list \"Sauce Labs Backpack\", \"Sauce Labs Bike Light\", \"Sauce Labs Bolt T-Shirt\", \"Sauce Labs Fleece Jacket\", \"Sauce Labs Onesie\"",
+            "match": {
+              "location": "features\\step_definitions\\stepDefs.js:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6974699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 487199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "adding-multiple-items",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Adding multiple items",
+    "tags": [],
+    "uri": "features\\test3.feature"
+  }
+]
