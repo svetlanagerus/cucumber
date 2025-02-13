@@ -3,13 +3,13 @@ const {chromium} = require('@playwright/test');
 const {setBrowser, getBrowser, setPage, getPage} = require('../support/hooks');
 
 Given('I open the web application at {string}', async function (url) {
-    const browser = await chromium.launch({headless: false, slowMo: 200});
+    const browser = await chromium.launch({headless: false, slowMo: 0});
     const page = await browser.newPage();
 
     setBrowser(browser);
     setPage(page);
 
-    await page.goto(url);
+    await page.goto(url, { waitUntil: 'networkidle' });
 });
 
 Given('I see the login page with {string} and {string} fields', async function (usernameField, passwordField) {

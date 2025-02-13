@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 991600
+              "duration": 1192099
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 3,
             "name": "I open the web application at \"https://www.saucedemo.com\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:6"
+              "location": "features\\step_definitions\\stepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1980863100
+              "duration": 2967977299
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 4,
             "name": "I see the login page with \"username\" and \"password\" fields",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:20"
+              "location": "features\\step_definitions\\stepDefs.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 53481300
+              "duration": 78469600
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 5,
             "name": "I enter \"standard_user\" into the \"username\" field",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:38"
+              "location": "features\\step_definitions\\stepDefs.js:32"
             },
             "result": {
               "status": "passed",
-              "duration": 251376800
+              "duration": 39942000
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 6,
             "name": "I enter \"secret_sauce\" into the \"password\" field",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:38"
+              "location": "features\\step_definitions\\stepDefs.js:32"
             },
             "result": {
               "status": "passed",
-              "duration": 272948800
+              "duration": 47850900
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 7,
             "name": "I press the \"login-button\" on the form",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:50"
+              "location": "features\\step_definitions\\stepDefs.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 362276200
+              "duration": 174695600
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 8,
             "name": "I should be navigated to a new page",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:62"
+              "location": "features\\step_definitions\\stepDefs.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 392500
+              "duration": 532699
             }
           },
           {
@@ -101,11 +101,11 @@
             "line": 9,
             "name": "that page should display the title \"Products\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:72"
+              "location": "features\\step_definitions\\stepDefs.js:63"
             },
             "result": {
               "status": "passed",
-              "duration": 13198400
+              "duration": 24085699
             }
           },
           {
@@ -113,7 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 418800
+              "duration": 631199
             }
           }
         ],
@@ -143,7 +143,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 74500
+              "duration": 163499
             }
           },
           {
@@ -152,11 +152,11 @@
             "line": 3,
             "name": "I open the web application at \"https://www.saucedemo.com\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:6"
+              "location": "features\\step_definitions\\stepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1806344000
+              "duration": 2783386799
             }
           },
           {
@@ -165,11 +165,11 @@
             "line": 4,
             "name": "I see the login page with \"username\" and \"password\" fields",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:20"
+              "location": "features\\step_definitions\\stepDefs.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 46771399
+              "duration": 70790800
             }
           },
           {
@@ -178,11 +178,11 @@
             "line": 5,
             "name": "I enter \"standard_user\" into the \"username\" field",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:38"
+              "location": "features\\step_definitions\\stepDefs.js:32"
             },
             "result": {
               "status": "passed",
-              "duration": 249820400
+              "duration": 41243800
             }
           },
           {
@@ -191,11 +191,11 @@
             "line": 6,
             "name": "I enter \"secret_sauce\" into the \"password\" field",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:38"
+              "location": "features\\step_definitions\\stepDefs.js:32"
             },
             "result": {
               "status": "passed",
-              "duration": 243905499
+              "duration": 55998300
             }
           },
           {
@@ -204,11 +204,11 @@
             "line": 7,
             "name": "I press the \"login-button\" on the form",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:50"
+              "location": "features\\step_definitions\\stepDefs.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 325015400
+              "duration": 216097999
             }
           },
           {
@@ -217,11 +217,11 @@
             "line": 8,
             "name": "I should be navigated to a new page",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:62"
+              "location": "features\\step_definitions\\stepDefs.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 293599
+              "duration": 382600
             }
           },
           {
@@ -230,11 +230,11 @@
             "line": 9,
             "name": "that page should display the title \"Products\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:72"
+              "location": "features\\step_definitions\\stepDefs.js:63"
             },
             "result": {
               "status": "passed",
-              "duration": 14984099
+              "duration": 33454300
             }
           },
           {
@@ -243,11 +243,11 @@
             "line": 10,
             "name": "I am on the \"Products\" page",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:100"
+              "location": "features\\step_definitions\\stepDefs.js:89"
             },
             "result": {
               "status": "passed",
-              "duration": 2484699
+              "duration": 6699000
             }
           },
           {
@@ -256,11 +256,11 @@
             "line": 11,
             "name": "I locate the product \"Sauce Labs Backpack\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:110"
+              "location": "features\\step_definitions\\stepDefs.js:97"
             },
             "result": {
               "status": "passed",
-              "duration": 7885499
+              "duration": 26635700
             }
           },
           {
@@ -269,11 +269,11 @@
             "line": 12,
             "name": "I click on \"Add to cart\" for that product",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:125"
+              "location": "features\\step_definitions\\stepDefs.js:107"
             },
             "result": {
               "status": "passed",
-              "duration": 234876999
+              "duration": 389790300
             }
           },
           {
@@ -282,11 +282,11 @@
             "line": 13,
             "name": "I store the displayed price for \"Sauce Labs Backpack\" as \"price1\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:142"
+              "location": "features\\step_definitions\\stepDefs.js:115"
             },
             "result": {
               "status": "passed",
-              "duration": 6947400
+              "duration": 13115700
             }
           },
           {
@@ -295,11 +295,11 @@
             "line": 14,
             "name": "I locate the product \"Sauce Labs Bike Light\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:110"
+              "location": "features\\step_definitions\\stepDefs.js:97"
             },
             "result": {
               "status": "passed",
-              "duration": 8941100
+              "duration": 25244199
             }
           },
           {
@@ -308,11 +308,11 @@
             "line": 15,
             "name": "I click on \"Add to cart\" for that product",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:125"
+              "location": "features\\step_definitions\\stepDefs.js:107"
             },
             "result": {
               "status": "passed",
-              "duration": 259095000
+              "duration": 75829200
             }
           },
           {
@@ -321,11 +321,11 @@
             "line": 16,
             "name": "I store the displayed price for \"Sauce Labs Bike Light\" as \"price2\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:142"
+              "location": "features\\step_definitions\\stepDefs.js:115"
             },
             "result": {
               "status": "passed",
-              "duration": 5550200
+              "duration": 8601000
             }
           },
           {
@@ -334,11 +334,11 @@
             "line": 17,
             "name": "I open the cart page",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:160"
+              "location": "features\\step_definitions\\stepDefs.js:130"
             },
             "result": {
               "status": "passed",
-              "duration": 240116700
+              "duration": 109787900
             }
           },
           {
@@ -347,11 +347,11 @@
             "line": 18,
             "name": "the cart should list \"Sauce Labs Backpack\" and \"Sauce Labs Bike Light\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:171"
+              "location": "features\\step_definitions\\stepDefs.js:138"
             },
             "result": {
               "status": "passed",
-              "duration": 11176099
+              "duration": 25383000
             }
           },
           {
@@ -359,7 +359,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 274599
+              "duration": 604100
             }
           }
         ],
@@ -389,7 +389,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 34100
+              "duration": 76600
             }
           },
           {
@@ -398,11 +398,11 @@
             "line": 4,
             "name": "I open the web application at \"https://www.saucedemo.com\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:6"
+              "location": "features\\step_definitions\\stepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1482103099
+              "duration": 3308086199
             }
           },
           {
@@ -411,11 +411,11 @@
             "line": 5,
             "name": "I see the login page with \"username\" and \"password\" fields",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:20"
+              "location": "features\\step_definitions\\stepDefs.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 33017100
+              "duration": 52526899
             }
           },
           {
@@ -424,11 +424,11 @@
             "line": 6,
             "name": "I enter \"standard_user\" into the \"username\" field",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:38"
+              "location": "features\\step_definitions\\stepDefs.js:32"
             },
             "result": {
               "status": "passed",
-              "duration": 234708899
+              "duration": 32918099
             }
           },
           {
@@ -437,11 +437,11 @@
             "line": 7,
             "name": "I enter \"secret_sauce\" into the \"password\" field",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:38"
+              "location": "features\\step_definitions\\stepDefs.js:32"
             },
             "result": {
               "status": "passed",
-              "duration": 232574400
+              "duration": 23399700
             }
           },
           {
@@ -450,11 +450,11 @@
             "line": 8,
             "name": "I press the \"login-button\" on the form",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:50"
+              "location": "features\\step_definitions\\stepDefs.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 364848800
+              "duration": 181157799
             }
           },
           {
@@ -463,11 +463,11 @@
             "line": 9,
             "name": "I should be navigated to a new page",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:62"
+              "location": "features\\step_definitions\\stepDefs.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 469100
+              "duration": 294099
             }
           },
           {
@@ -476,11 +476,11 @@
             "line": 10,
             "name": "that page should display the title \"Products\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:72"
+              "location": "features\\step_definitions\\stepDefs.js:63"
             },
             "result": {
               "status": "passed",
-              "duration": 17716099
+              "duration": 21412800
             }
           },
           {
@@ -489,11 +489,11 @@
             "line": 11,
             "name": "I am on the \"Products\" page",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:100"
+              "location": "features\\step_definitions\\stepDefs.js:89"
             },
             "result": {
               "status": "passed",
-              "duration": 2512199
+              "duration": 4236399
             }
           },
           {
@@ -502,11 +502,11 @@
             "line": 13,
             "name": "I locate the product \"Sauce Labs Backpack\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:110"
+              "location": "features\\step_definitions\\stepDefs.js:97"
             },
             "result": {
               "status": "passed",
-              "duration": 10473899
+              "duration": 14657199
             }
           },
           {
@@ -515,11 +515,11 @@
             "line": 14,
             "name": "I click on \"Add to cart\" for that product",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:125"
+              "location": "features\\step_definitions\\stepDefs.js:107"
             },
             "result": {
               "status": "passed",
-              "duration": 258932400
+              "duration": 151132099
             }
           },
           {
@@ -528,11 +528,11 @@
             "line": 15,
             "name": "I store the displayed price for \"Sauce Labs Backpack\" as \"price1\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:142"
+              "location": "features\\step_definitions\\stepDefs.js:115"
             },
             "result": {
               "status": "passed",
-              "duration": 4955300
+              "duration": 7531899
             }
           },
           {
@@ -541,11 +541,11 @@
             "line": 17,
             "name": "I locate the product \"Sauce Labs Bike Light\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:110"
+              "location": "features\\step_definitions\\stepDefs.js:97"
             },
             "result": {
               "status": "passed",
-              "duration": 13324099
+              "duration": 16214500
             }
           },
           {
@@ -554,11 +554,11 @@
             "line": 18,
             "name": "I click on \"Add to cart\" for that product",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:125"
+              "location": "features\\step_definitions\\stepDefs.js:107"
             },
             "result": {
               "status": "passed",
-              "duration": 251000799
+              "duration": 80787399
             }
           },
           {
@@ -567,11 +567,11 @@
             "line": 19,
             "name": "I store the displayed price for \"Sauce Labs Bike Light\" as \"price2\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:142"
+              "location": "features\\step_definitions\\stepDefs.js:115"
             },
             "result": {
               "status": "passed",
-              "duration": 6025499
+              "duration": 7245800
             }
           },
           {
@@ -580,11 +580,11 @@
             "line": 21,
             "name": "I locate the product \"Sauce Labs Bolt T-Shirt\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:110"
+              "location": "features\\step_definitions\\stepDefs.js:97"
             },
             "result": {
               "status": "passed",
-              "duration": 9645099
+              "duration": 19190000
             }
           },
           {
@@ -593,11 +593,11 @@
             "line": 22,
             "name": "I click on \"Add to cart\" for that product",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:125"
+              "location": "features\\step_definitions\\stepDefs.js:107"
             },
             "result": {
               "status": "passed",
-              "duration": 247492700
+              "duration": 70584100
             }
           },
           {
@@ -606,11 +606,11 @@
             "line": 23,
             "name": "I store the displayed price for \"Sauce Labs Bolt T-Shirt\" as \"price3\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:142"
+              "location": "features\\step_definitions\\stepDefs.js:115"
             },
             "result": {
               "status": "passed",
-              "duration": 5079700
+              "duration": 7259600
             }
           },
           {
@@ -619,11 +619,11 @@
             "line": 25,
             "name": "I locate the product \"Sauce Labs Fleece Jacket\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:110"
+              "location": "features\\step_definitions\\stepDefs.js:97"
             },
             "result": {
               "status": "passed",
-              "duration": 8318499
+              "duration": 19883799
             }
           },
           {
@@ -632,11 +632,11 @@
             "line": 26,
             "name": "I click on \"Add to cart\" for that product",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:125"
+              "location": "features\\step_definitions\\stepDefs.js:107"
             },
             "result": {
               "status": "passed",
-              "duration": 238159100
+              "duration": 62034900
             }
           },
           {
@@ -645,11 +645,11 @@
             "line": 27,
             "name": "I store the displayed price for \"Sauce Labs Fleece Jacket\" as \"price4\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:142"
+              "location": "features\\step_definitions\\stepDefs.js:115"
             },
             "result": {
               "status": "passed",
-              "duration": 3975900
+              "duration": 6183699
             }
           },
           {
@@ -658,11 +658,11 @@
             "line": 29,
             "name": "I locate the product \"Sauce Labs Onesie\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:110"
+              "location": "features\\step_definitions\\stepDefs.js:97"
             },
             "result": {
               "status": "passed",
-              "duration": 8106399
+              "duration": 13838200
             }
           },
           {
@@ -671,11 +671,11 @@
             "line": 30,
             "name": "I click on \"Add to cart\" for that product",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:125"
+              "location": "features\\step_definitions\\stepDefs.js:107"
             },
             "result": {
               "status": "passed",
-              "duration": 241045500
+              "duration": 88298800
             }
           },
           {
@@ -684,11 +684,11 @@
             "line": 31,
             "name": "I store the displayed price for \"Sauce Labs Onesie\" as \"price5\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:142"
+              "location": "features\\step_definitions\\stepDefs.js:115"
             },
             "result": {
               "status": "passed",
-              "duration": 5325600
+              "duration": 7295099
             }
           },
           {
@@ -697,11 +697,11 @@
             "line": 33,
             "name": "I open the cart page",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:160"
+              "location": "features\\step_definitions\\stepDefs.js:130"
             },
             "result": {
               "status": "passed",
-              "duration": 230241899
+              "duration": 148188799
             }
           },
           {
@@ -710,11 +710,11 @@
             "line": 34,
             "name": "the cart should list \"Sauce Labs Backpack\", \"Sauce Labs Bike Light\", \"Sauce Labs Bolt T-Shirt\", \"Sauce Labs Fleece Jacket\", \"Sauce Labs Onesie\"",
             "match": {
-              "location": "features\\step_definitions\\stepDefs.js:185"
+              "location": "features\\step_definitions\\stepDefs.js:151"
             },
             "result": {
               "status": "passed",
-              "duration": 6974699
+              "duration": 18173199
             }
           },
           {
@@ -722,7 +722,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 487199
+              "duration": 3393000
             }
           }
         ],
